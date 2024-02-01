@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js"></script>
+</head>
+
+<body class="container-md">
+    <nav class="navbar navbar-expand-lg border-bottom p-4">
+        <div class="container-fluid">
+            <!-- Logo dan Nama Brand -->
+            <i>
+                <a class="navbar-brand fs-3" href="#" style="color: #3b4754">
+                    Moqups
+                </a>
+            </i>
+
+            <!-- Tombol Toggle untuk Mode Responsif -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Daftar Menu -->
+            <div class="collapse navbar-collapse justify-content-end fs-5" id="navbarNav">
+                <ul class="navbar-nav ">
+                    <li class="nav-item p-1 header-navigation"
+                        style="border: 1px solid black; border-radius: 5px 0px 0px 5px;">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item p-1" style="border: 1px solid black;">
+                        <a class="nav-link" href="#our-package">Our Package</a>
+                    </li>
+                    <li class="nav-item p-1" style="border: 1px solid black; border-radius: 0px 5px 5px 0px;">
+                        <a class="nav-link" href="#call-us">Call Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="text-center" style="margin-top: 66px">
+        <h1 style="color: #3b4754">
+            <strong>Top Rated E-Groceries Shop In <br> Indonesian</strong>
+        </h1>
+        <div style="color: #9fafc1" class="fs-4 mt-4">Every Day with best ingredients</div>
+    </section>
+
+    <section id="home" style="margin-top: 66px;">
+        <div class="container-fluid">
+            <div class="row flex-column flex-md-row">
+                <div class="col-md-8">
+                    <!-- Kolom dengan lebar 8/12 pada tampilan medium dan besar -->
+                    <img class="image-silders rounded" src="https://www.w3schools.com/css/img_5terre.jpg" width="100%">
+                    <!-- <img class="image-silders" src="https://www.w3schools.com/css/img_forest.jpg" width="100%"> -->
+                    <!-- <img class="image-silders" src="https://www.w3schools.com/css/img_lights.jpg" width="100%"> -->
+                    <!-- <button id="btn-prev-image-slider"> Next </button>
+                    <button id="btn-next-image-slider">Prev</button> -->
+
+                    <section id="testimoni">
+                        <div class="text-center" style="margin-top: 33px;">
+                            <i style="font-size: 22px;color: #9fafc1;">"Setiap hari beli sayur buah yang fresh disini "</i>
+                        </div>
+                        <div class="row p-5">
+                            <div style="border-radius: 100px; background-color: #edf0f4; width: 60px; height: 60px;"></div>
+                            <div class="col">
+                                <div style="color: #3b4754; font-weight: 600;font-size: 20px;">Florence Hughes</div>
+                                <div style="font-size: 25px;color: #9fafc1; font-size: 20px;"><i>Ibu Rumah Tangga, 28</i></div>
+                            </div>
+                        </div>
+                        <div style="width: 150px; height: 5px; background-color: #edf0f4; border-radius: 10px; margin: auto;"></div>
+                    </section>
+                </div>
+                <div class="col-md-4 rounded" style="background-color: #edf0f4;height: 100%;">
+                    <!-- Kolom dengan lebar 4/12 pada tampilan medium dan besar -->
+                    <div style="padding: 30px;">
+                        <h6 style="color: #3b4754; font-weight: 600;font-size: 20px; margin-bottom: 17px;">Contact Us
+                        </h6>
+                        <span style="color: #9fafc1; font-size: 14.5px;">Sales akan menghubungi anda
+                            1x24 Jam setelah data
+                            kami terima.</span>
+                        <br>
+                        <br>
+                        <form>
+                            <label for="name" style="font-weight: 600;color: #3b4754;font-size: 13px;">Your
+                                Name:</label> <br>
+                            <input
+                                style="border: 3px solid #c9d3dd; outline: none; width: 100%;border-radius: 5px;padding: 7px;"
+                                id="name" type="text" placeholder="First and last name">
+                            <br>
+                            <br>
+                            <label style="font-weight: 600;color: #3b4754;font-size: 13px;" for="email">Email
+                                Address:</label><br>
+                            <input
+                                style="border: 3px solid #c9d3dd; width: 100%; outline: none; border-radius: 5px; padding: 7px;"
+                                id="email" type="text" placeholder="example@email.com">
+                            <br>
+                            <br>
+                            <label for="interest" style="font-weight: 600;color: #3b4754;font-size: 13px;">What are you
+                                interest in?</label>
+                            <br>
+                            <select
+                                style="border: 3px solid #c9d3dd; outline: none; width: 100%;border-radius: 5px;padding: 7px;"
+                                id="interest">
+                                <option value="Carrot">Carrot</option>
+                                <option value="Spinach">Spinach</option>
+                                <option value="Cabbage">Cabbage</option>
+                            </select>
+                            <br>
+                            <input
+                                style="outline: none; background-color: #29323d; color: white; width: 100%; font-weight: 600; border-radius: 3px;"
+                                class="mt-4 p-2" type="submit" value="SEND">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="our-package">
+a
+    </section>
+</body>
+
+</html>
